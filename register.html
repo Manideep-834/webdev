@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link  rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="registerform" action="#">
+    <div class="l1">
+        <h1 >Game Registration</h1>
+    </div>
+    <hr size="5" color="black">
+
+    <div class="l2">
+        <div class="l3">
+           
+
+            <label for="first">FirstName:</label><br>
+            <input type="text" id="first1" name="name" required minlength="4" size="25" placeholder="FirstName">
+        </div>
+
+       <div class="l4">
+        <label for="last">LastName:</label>
+        <input type="text" id="last" name="name" required minlength="4" size="25" placeholder="LastName"><br>
+
+       </div>
+       <div class="l5">
+        <label for="phone">gmail:</label>
+        <input type="email" id="phone" name="email" required minlength="4" size="20" placeholder="gmail">
+       </div>
+       <div class="l6">
+        <label for="int">List of games:</label><br>
+        <select name="games" id="int" placeholder="select" >
+            <option value="Fortnite">choose</option>
+            <option value="Fortnite">Fortnite</option>
+            <option value="Pubg">Pubg</option>
+            <option value="CSGO">CSGO</option>
+            <option value="COD">COD</option>
+        </select>
+       </div>
+       <div class="l7">
+        <input type="radio" name="payment" value="credit" class="pay1">
+        <label class="pay">Credit Card</label>
+        <br>
+        <input type="radio" name="payment" value="credit" class="pay1">
+        <label class="pay">Pay Pal</label>
+        <br>
+        <input type="radio" name="payment" value="credit" class="pay1">
+        <label class="pay">Other</label>
+        <br>
+        
+       </div>
+       <input type="submit" id="button" class="butt">
+          
+    </div>
+    <div class="head1">
+    </div>
+    <script src="reg.js"></script>
+    </form>
+</body>
+</html>
